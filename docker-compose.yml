@@ -31,8 +31,7 @@ services:
       - MYSQL_USER=devuser
       - MYSQL_PASSWORD=changeme
       - MYSQL_ROOT_PASSWORD=rootpassword
-    ports:
-      - "3306:3306"
+    
 
 volumes:
   dev-db-data:
